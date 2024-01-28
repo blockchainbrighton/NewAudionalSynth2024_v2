@@ -201,7 +201,7 @@ function pointerUp( ev ) {
 
 function initAudio() {
 	try {
-    	audioContext = new webkitAudioContext();
+    	audioContext = new AudioContext();
   	}
   	catch(e) {
     	alert('Web Audio API is not supported in this browser');
